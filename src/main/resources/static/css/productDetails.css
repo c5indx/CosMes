@@ -1,0 +1,197 @@
+/* Reset & base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  background: #fafafa;
+  color: #333;
+  line-height: 1.4;
+}
+
+/* Container */
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+/* Header / Back button */
+.header {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+.btn-back {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Product image */
+.product-image {
+  background: #ffece1;
+  border-radius: 16px;
+  padding: 24px;
+  text-align: center;
+  margin: 16px 0;
+}
+.product-image img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+/* Title & compare button */
+.product-info .brand {
+  font-size: 14px;
+  color: #666;
+}
+.product-info .title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 4px 0;
+}
+.product-info .subtitle {
+  font-size: 14px;
+  color: #8e44ad;
+  margin-bottom: 12px;
+}
+.btn-compare {
+  display: inline-block;
+  background: #f4c4f3;
+  color: #8e44ad;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Card overview */
+.card.overview {
+  background: #fff;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  margin: 16px 0;
+}
+.card.overview h2 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.overview-list li {
+  margin-bottom: 12px;
+}
+.overview-list strong {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+/* Warning bar */
+.warning-bar {
+  display: flex;
+  align-items: center;
+  background: #fff0f0;
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin: 16px 0;
+  font-size: 14px;
+}
+.warning-icon {
+  margin-right: 8px;
+}
+.warning-bar strong {
+  margin-left: auto;
+  color: #c0392b;
+}
+
+/* Quick Info */
+.quick-info h2 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.info-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.info-item {
+  flex: 1 1 45%;
+  text-align: center;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 12px;
+}
+.info-item.positive {
+  background: #e8f8f5;
+  color: #27ae60;
+}
+.info-item.neutral {
+  background: #f0f0f0;
+  color: #7f8c8d;
+}
+.info-item.disabled {
+  background: #f8f8f8;
+  color: #b2b2b2;
+}
+
+/* Awards */
+.awards h2 {
+  font-size: 16px;
+  margin: 16px 0 8px;
+}
+.award-icons {
+  display: flex;
+  gap: 12px;
+}
+.award-icons img {
+  width: 40px;
+  height: 40px;
+}
+
+/* Ingredients */
+.ingredients h2 {
+  font-size: 16px;
+  margin: 16px 0 8px;
+  display: flex;
+  align-items: center;
+}
+.ingredients .count {
+  background: #eee;
+  border-radius: 50%;
+  padding: 4px 8px;
+  font-size: 12px;
+  margin-left: 8px;
+}
+.ingredient-list {
+  list-style: none;
+}
+.ingredient-list li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+.ingredient-list .num {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: #f0f0f0;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 24px;
+  margin-right: 12px;
+  font-size: 12px;
+  color: #555;
+}
+.ingredient-list strong {
+  font-size: 14px;
+}
+.ingredient-list p {
+  font-size: 12px;
+  color: #777;
+  margin-top: 4px;
+}
